@@ -1,0 +1,22 @@
+# What is a Version Control System?
+
+* A System that... Controls Versions.
+* Stores your files, be they text or binary
+* Keeps track of who did what and when
+
+
+# Why should I care?
+
+* Answers the oft-asked question: "Who the hell did that?"
+* Answers the oft-asked question: "When the hell did that happen?"
+* Lets you jump to any point in time
+* Lets you see what changed between versions
+* You can review your work *before* it takes effect
+* You can play nice with others
+* Keeps the auditors happy
+* Keeps the doctor away
+
+
+# What is git?
+
+* A Distributed Version Control System
