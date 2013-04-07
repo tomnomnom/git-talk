@@ -1,6 +1,6 @@
 # Merging (Fast Forward!)
 
-* Create a special commit with two parents
+* Pretend the branch never existed!
 
 (master)▶ git merge bugfix
 
