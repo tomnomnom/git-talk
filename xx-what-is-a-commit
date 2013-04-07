@@ -1,0 +1,32 @@
+# What is a commit?
+
+* A pointer to a place in time
+
+╔════════════════════════════════════════════════════════════╗
+║ commit a2a385795be7403090534de6d393766414395e0f            ║
+║ tree e4430713bf0e23891d355cc2a011d9f8aefbfb41              ║
+║ parent 08f5e3a596ef94e83b19fbe65838cb509dea11ec            ║
+║ author Tom Hudson <mail@tomnomnom.com> 1365338659 +0000    ║
+║                                                            ║
+║     What is a repo slide                                   ║
+╚════════════════════════════════════════════════════════════╝
+
+* At its core, git is a key-value data store
+* Keys are SHA1 hashes
+
+               ┌───────────────┐
+               │ Commit a2a385 │
+               └───────┬───────┘
+                ┌──────┴──────┐
+                │ Tree e44307 │
+                └──────┬──────┘
+        ┌──────────────┼──────────────┐
+ ┌──────┴──────┐┌──────┴──────┐┌──────┴──────┐
+ │ Blob 5e9d37 ││ Blob c83072 ││ Tree 363b61 │
+ │ README.mkd  ││ 00-title    ││ library     │
+ └─────────────┘└─────────────┘└──────┬──────┘
+                              ┌───────┴───────┐
+                       ┌──────┴──────┐ ┌──────┴──────┐
+                       │ Blob 3e0d87 │ │ Blob b46081 │
+                       │ foo.txt     │ │ logo.png    │
+                       └─────────────┘ └─────────────┘
