@@ -1,42 +1,5 @@
-# Git
+# Git for PlatOps
 
-# What is a Version Control System?
-* Stores your files; text or binary
-* Keeps track of who did what and when
+Slides for teaching PlatOps people about git. 
 
-# Why should I care?
-* Who did what and when
-* Go to any point in time
-* Enables collaborative working
-* What did I just do?
-* What changed between versions?
-
-# Repositories
-* What is a repo?
-* Terminology
-    * Clone
-    * Push
-    * Pull
-
-# Commits
-* Structure
-* Staging area
-* References (e.g. HEAD^)
-
-# Branches
-* Another type of commit pointer
-* Structure
-* Terminology
-    * Checkout
-
-# A typical workflow
-1. Pull updates from remote
-2. Make changes
-3. Review changes
-4. Add to staging area
-5. Commit
-6. Push to remote
-
-# Tricks
-* bisect
-* stash
+A work in progress.
