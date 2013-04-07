@@ -2,7 +2,7 @@
 
 * Create a special commit with two parents
 
-(master)▶ git merge bugfix
+(master)▶ git merge bugfix --no-ff
 
  ┌────────┐     ┌───────────────┐
  │ master ├────▷│ Merge  a729bc │
@@ -11,11 +11,9 @@
        ┌───────────┴───┐ ┌───┴───────────┐    
        │ Commit a2a385 │ │ Commit b54421 │   
        └───────────┬───┘ └───┬───────────┘
-                   │         │
                 ┌──┴─────────┴──┐
                 │ Commit 08f5e3 │
                 └───────┬───────┘
-                        │
                 ┌┄┄┄┄┄┄┄┴┄┄┄┄┄┄┄┐
                 ┊  Null parent  ┊
                 └┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┘
