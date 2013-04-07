@@ -21,7 +21,7 @@
 # Commits
 * Structure
 * Staging area
-* Special commit pointers (e.g. HEAD^)
+* References (e.g. HEAD^)
 
 # Branches
 * Another type of commit pointer

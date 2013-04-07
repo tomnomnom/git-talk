@@ -1,0 +1,30 @@
+# Symbolic References
+
+* A reference to a reference
+* HEAD == most recent commit on current branch
+* HEAD^ == one commit before that
+* HEAD^^ == HEAD~2 == one commit before *that*
+
+ ┌──────┐     ┌────────┐     ┌───────────────┐
+ │ HEAD ├────▷│ master ├────▷│ Commit a2a385 │
+ └──────┘     └────────┘     └───────┬───────┘
+                                     │
+                             ┌───────┴───────┐
+                             │ Commit 08f5e3 │
+                             └───────┬───────┘
+                                     │
+                             ┌┄┄┄┄┄┄┄┴┄┄┄┄┄┄┄┐
+                             ┊  Null parent  ┊
+                             └┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┘
+
+ ┌────────┐     ┌───────────────┐
+ │ master ├────▷│ Commit a2a385 │
+ └────────┘     └───────┬───────┘
+                        │
+  ┌───────┐     ┌───────┴───────┐
+  │ HEAD^ ├────▷│ Commit 08f5e3 │
+  └───────┘     └───────┬───────┘
+                        │
+                ┌┄┄┄┄┄┄┄┴┄┄┄┄┄┄┄┐
+                ┊  Null parent  ┊
+                └┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┘
