@@ -1,0 +1,32 @@
+# What is a repo?
+
+* A collection of changes called 'commits'
+* There can be many 'clones' of a repo
+* Commits are 'pushed' and 'pulled' between repos
+* All repos are equal
+
+▶ git init
+  ┌┄┄┄┄┄┄┄┐
+  ┊ Local ┊
+  └┄┄┄┄┄┄┄┘
+
+▶ git clone git@code.skybet.net:reponame
+
+  ┌┄┄┄┄┄┄┄┐      Clone     ╔═════════════════╗
+  ┊ Local ┊◁╌◁╌◁╌◁╌◁╌◁╌◁╌◁╌╢ Remote (origin) ║
+  └┄┄┄┄┄┄┄┘                ╚═════════════════╝
+
+
+▶ git pull #defaults to 'origin'
+
+  ╔═══════╗      Pull      ╔════════╗
+  ║ Local ╟◁╌◁╌◁╌◁╌◁╌◁╌◁╌◁╌╢ Remote ║
+  ╚═══════╝                ╚════════╝
+
+
+▶ git push #defaults to 'origin'
+
+  ╔═══════╗      Push      ╔════════╗
+  ║ Local ╟╌▷╌▷╌▷╌▷╌▷╌▷╌▷╌▷╢ Remote ║
+  ╚═══════╝                ╚════════╝
+
