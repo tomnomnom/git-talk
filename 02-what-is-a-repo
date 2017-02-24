@@ -10,7 +10,7 @@
   ┊ Local ┊
   └┄┄┄┄┄┄┄┘
 
-▶ git clone git@code.skybet.net:reponame
+▶ git clone git@code.myhost.net:reponame
 
   ┌┄┄┄┄┄┄┄┐      Clone     ╔═════════════════╗
   ┊ Local ┊◁╌◁╌◁╌◁╌◁╌◁╌◁╌◁╌╢ Remote (origin) ║
